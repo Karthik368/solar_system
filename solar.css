@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("backgraund.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+.solar_system{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.Last_one{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    animation: rotate 10s linear infinite; 
+}
+.Last_one1{
+    position: absolute  ;
+    top: -4%;
+    left: 40%;
+}
+.seventh{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 900px;
+    width: 900px;
+    position: relative;
+}
+.seventh_one{
+    position: absolute  ;
+    top: -2%;
+    left: 60%;
+}
+.sixth{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 800px;
+    width: 800px;
+    position: relative;
+}
+.sixth_one{
+    position: absolute  ;
+    top: 8%;
+    left: 73%;
+}
+.fifth{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 700px;
+    width: 700px;
+    position: relative;
+}
+.fifth_one{
+    position: absolute  ;
+    top: 32%;
+    left: 87%;
+}
+.fourth{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    position: relative;
+}
+.fourth_one{
+    position: absolute  ;
+    top: 55%;
+    left: 85%;
+}
+.third{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.third_one{
+    position: absolute  ;
+    top: 80%;
+    left: 65%;
+}
+.two{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+.two_one{
+    position: absolute  ;
+    top: 90%;
+    left: 45%;
+}
+.one{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.one1{
+    position: absolute  ;
+    top: 81%;
+    left: 7%;
+}
+.sun{
+    height: 170px;
+    width: 170px;
+    background: url("sun-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    100%{
+         transform: rotate(360deg);
+    }
+}
+
